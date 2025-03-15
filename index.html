@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- Import Poppins font from Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>𝓪𝓴𝓼𝓱𝓪𝔂</h1> <!-- Updated to cursive style -->
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
+                </ul>
+                <div class="hamburger" id="hamburger">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section with Image -->
+    <section id="hero" class="hero-section">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h2>Hello, I'm <span class="highlight">Akshay Kanojia</span></h2>
+                    <p>A passionate beginner-level Data Analyst with a strong foundation in data analysis, visualization, and problem-solving.</p>
+                    <div class="hero-buttons">
+                        <a href="#contact" class="btn">Hire Me</a>
+                        <a href="Akshay (1).pdf" download="Akshay_Kanojia_Resume.pdf" class="btn btn-resume">Download My Resume</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="photo.jpg" alt="Profile Image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <p>I'm incredibly passionate about turning raw data into actionable insights, and I'm looking to build a portfolio that reflects that enthusiasm. As a beginner data analyst, I want to showcase my foundational skills in data cleaning, analysis, and visualization. Please create a portfolio using tools like Python (Pandas), SQL, and visualization libraries (e.g., Matplotlib, Seaborn) that demonstrates my ability to:</p>
+                <ul>
+                    <li>Clean and preprocess raw data for analysis.</li>
+                    <li>Perform exploratory data analysis to uncover trends and patterns.</li>
+                    <li>Create clear and insightful visualizations to communicate findings.</li>
+                    <li>Use SQL to query and manipulate data efficiently.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <div class="container">
+            <h2>Skills</h2>
+            <div class="skills-grid">
+                <div class="skill">
+                    <i class="fas fa-database"></i>
+                    <h3>SQL</h3>
+                </div>
+                <div class="skill">
+                    <i class="fab fa-python"></i>
+                    <h3>Python</h3>
+                </div>
+                <div class="skill">
+                    <i class="fas fa-file-excel"></i>
+                    <h3>Excel</h3>
+                </div>
+                <div class="skill">
+                    <i class="fas fa-chart-bar"></i>
+                    <h3>Data Visualization</h3>
+                </div>
+                <div class="skill">
+                    <i class="fas fa-chart-line"></i>
+                    <h3>Tableau</h3>
+                </div>
+                <div class="skill">
+                    <i class="fab fa-git"></i>
+                    <h3>Git</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="projects-grid">
+                <div class="project">
+                    <h3>Project 1</h3>
+                    <p>Description of Project 1.</p>
+                </div>
+                <div class="project">
+                    <h3>Project 2</h3>
+                    <p>Description of Project 2.</p>
+                </div>
+                <div class="project">
+                    <h3>Project 3</h3>
+                    <p>Description of Project 3.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Me Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <form id="contact-form" action="https://formspree.io/f/{your-form-id}" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="social-links">
+                <a href="https://github.com/Akshay736252" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/akshay-kanojia-b84687289/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://x.com/KanojiaAks58597" target="_blank"><i class="fab fa-twitter"></i></a>
+            </div>
+            <p>&copy; 2025 My Portfolio. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
